@@ -1,0 +1,100 @@
+Q1: 4 list
+Q2: 4
+Q3: ls | wc
+      3       3      18
+
+Q4:     PID TTY          TIME CMD
+2409173 pts/3    00:00:00 bash
+2409792 pts/3    00:00:00 vimtutor
+2409799 pts/3    00:00:00 vim
+2409998 pts/3    00:00:00 vi
+2410699 pts/3    00:00:00 vim
+2410743 pts/3    00:00:00 vi
+2415883 pts/3    00:00:00 vi
+2415969 pts/3    00:00:00 ps
+
+
+
+Q5: 
+[1]   Stopped                 vimtutor
+[2]   Stopped                 vi vi.txt
+[3]   Stopped                 vim tutor
+[4]-  Stopped                 vi v1.txt
+[5]+  Stopped                 vi list
+ 
+Q6: fg
+Q7:
+0a1,5
+> apple
+> pear
+> grape
+> peach
+> apricot
+
+this is the difference in the files of list and list2
+
+Q8: nothing shows up in diff list2 list2
+
+Q9: i expected the numbers to be in numberic order but they were not.
+1
+11
+110
+12
+21
+
+Q10: Yes, they were in numeric order this time. 
+1
+11
+12
+21
+110
+
+Q11:
+
+-o directs ls to sort
+-k4 targets the 4th column
+-h compares human readable numbers
+-r reverses the list
+
+-rw-rw-r-- 1 zg96 33257 Apr 11 12:40 vi.txt
+-rw-rw-r-- 1 zg96    31 Apr 11 13:39 list2
+-rw-rw-r-- 1 zg96    15 Apr 11 13:54 numbers
+total 34
+-rw-rw-r-- 1 zg96     0 Apr 11 13:28 list
+
+
+Q12: 33k
+
+Q13:
+
+input is what i typed
+output is it repeating back what i typed
+error is in file 2
+
+Q14:
+input overwrites file1 with what i typed. 
+output is a file1 with my overwrite. 
+error is in file 2
+
+Q15: input would be the command
+output is the contents of file1
+error is in file 2
+
+Q16: input file1
+output is file2 copied with file1 contents
+error is in file 2
+
+Q17:
+input is my text
+output is file1 with my text appended on
+error is in file 2
+
+Q18:
+
+ls -o | sort -k4 -r | head -n 5
+
+Q19:
+find -type d
+
+Q20:
+cat part1 part 2 > part3

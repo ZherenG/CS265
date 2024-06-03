@@ -1,0 +1,38 @@
+Q1: touch Space\ file.txt
+
+Q2: ls a*b
+
+Q3: ls *a*
+
+Q4: ls *\ *
+ 
+Q5: ls *[ag]
+
+Q6: ls *[!b]
+
+Q7:ls a*[!b]
+
+Q8:
+
+touch Space\ file.txt
+touch a
+touch b
+touch aa
+touch ab
+touch abab
+
+Q9: bash Q8
+
+Q10: ls will show the files were created successfully
+
+Q11: type history
+
+Q12: echo "sqrt(5)" | bc
+
+Q13:	
+	set lsout = lab3
+	printenv $lsout
+
+Q14: $lsout > ls.out
+
+Q15: export PATH="$HOME/lsout:$PATH"
